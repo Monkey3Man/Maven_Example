@@ -26,20 +26,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-<!--<distributionManagement>
-   
+<distributionManagement>
     <repository>
-      <id>
-	  releaseRepo
-	  snapshot1
-	  </id>
-      
-      <url>
-	  http://localhost:8081/nexus/content/repositories/releaseRepo/
-      http://localhost:8081/nexus/content/repositories/snapshot1/
-	  </url>
+        <id>central</id>
+        <name>LAPTOP-EFLF8GN9-releases</name>
+        <url>http://127.0.0.1:81/artifactory/libs-release</url>
     </repository>
-  </distributionManagement>-->
+</distributionManagement>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
